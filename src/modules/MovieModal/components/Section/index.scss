@@ -1,0 +1,23 @@
+.movie {
+  align-items: center;
+  color: #ffffff;
+  justify-content: center;
+  padding: 12px 0;
+  row-gap: 8px;
+}
+
+.section {
+  background-color: #858e87;
+  padding: 4px 16px;
+  min-width: 60px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+span[role="img"] > svg {
+  height: 20px;
+  width: 20px;
+}

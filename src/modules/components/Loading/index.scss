@@ -1,0 +1,21 @@
+.ant-spin {
+  color: #ffffff;
+
+  .ant-spin-dot-item {
+    background-color: #ffffff;
+  }
+}
+
+.ant-spin-text {
+  font-weight: 700;
+}
+
+@media (prefers-color-scheme: light) {
+  .ant-spin {
+    color: #1677ff;
+
+    .ant-spin-dot-item {
+      background-color: #1677ff;
+    }
+  }
+}

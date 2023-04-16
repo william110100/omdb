@@ -1,0 +1,29 @@
+.moviesSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.ant-card {
+  border-color: transparent;
+  width: 200px;
+}
+
+.ant-empty .ant-empty-description {
+  color: #ffffff;
+}
+
+.ant-segmented {
+  background-color: #51555d;
+
+  .ant-segmented-item {
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .ant-segmented-item-selected,
+  :hover {
+    color: #858ea7;
+  }
+}
